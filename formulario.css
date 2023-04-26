@@ -10,3 +10,15 @@ body{
     background: -moz-linear-gradient(left, #53008a 0%, #00f700 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left, #53008a 0%,#00f700 100%); /* Chrome10-25,Safari5.1-6 */
 }
+
+form .anima{
+    background: transparent;
+    border: none;
+    border-bottom:  1px solid black ;
+}
+form .anima:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    box-shadow: 0 5px 10px rosybrown;
+    
+}
